@@ -1,5 +1,7 @@
-package org.gurukul.em_project;
+package org.gurukul.em_project.service;
 import java.util.List;
+
+import org.gurukul.em_project.models.Employee;
 
 
 public interface EmployeeService {

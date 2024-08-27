@@ -1,4 +1,4 @@
-package org.gurukul.em_project;
+package org.gurukul.em_project.Entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -15,7 +15,7 @@ public class EmployeeEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    
+
     private String name;
     private String phone;
     private String email;

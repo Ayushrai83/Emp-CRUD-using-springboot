@@ -1,7 +1,10 @@
-package org.gurukul.em_project;
+package org.gurukul.em_project.service;
 
 import java.util.List;
 
+import org.gurukul.em_project.Entity.EmployeeEntity;
+import org.gurukul.em_project.models.Employee;
+import org.gurukul.em_project.repository.EmployeeRepository;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 

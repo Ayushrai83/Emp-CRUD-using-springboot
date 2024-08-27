@@ -1,10 +1,12 @@
-package org.gurukul.em_project;
+package org.gurukul.em_project.controllers;
 
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import org.gurukul.em_project.models.Employee;
+import org.gurukul.em_project.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
